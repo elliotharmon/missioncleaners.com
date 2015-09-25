@@ -1,0 +1,136 @@
+h1 {
+	text-indent: -9999px;
+	background: white url(/graps/mcb_1000.png) no-repeat 0 0;
+	width: 1000px;
+	height: 169px;
+	border-radius: 15px;
+	}
+
+h2, h3, p, ul {
+	color: #1d1c82;
+	font-family: 'Merriweather', serif;
+	}
+
+body {
+	background: white url(/graps/defen.jpg) no-repeat top right;
+	background-attachment: fixed;
+	background-position: 100% 100%;
+	max-width: 1000px;
+	min-width: 300px;
+	margin-left: 100px;
+	margin-right: 100px;
+	}
+	
+#uptop {
+	margin-top: 100px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#splash {
+	max-width: 1000px;
+	min-width: 300px;
+	background-color: #ffffff;
+	padding: 10px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	}	
+
+#allnavbuttons {
+	overflow: auto;
+	float: right;
+	}
+
+.textbutton {
+	width: 85px;
+	height: 20px;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	font-weight: bolder;
+	font-size: 13px;
+	font-family: verdana, helvetica, arial;
+	text-align: center;
+	float: left;
+	}
+
+.textbutton.yeslink {
+	color: #345092;
+	background-color: #ffffff;
+	}
+
+.textbutton.yeslink:hover {
+	color: #ffffff;
+	background-color: #345092;
+	}
+
+.textbutton.nolink {
+	color: #ffffff;
+	background-color: #345092;
+	}
+
+.textbutton.buy {
+	border: 2px solid #345092;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	}
+
+.textbutton.buy span {
+	text-decoration: none;
+	}
+
+.clear {
+	clear: both;
+	}
+
+.cover {
+	margin: 5px;
+	max-width: 100%;
+	min-width: 100px;
+	border: 0px;
+	float: left;
+	}
+	
+.twocovers {
+	margin-left: auto;
+	margin-right: auto;
+	width: 620px;
+	max-width: 100%;
+	}
+	
+.covernote-matrix {
+	margin-left: auto;
+	margin-right: auto;
+	width: 620px;
+	max-width: 100%;
+	}
+	
+.twocovers img {
+	width: 48%;
+	}
+
+.covernote {
+	width: 48%;
+	text-align: center;
+	float: left;
+	}
+	
+.covernote a {
+	text-decoration: none;
+	}
+
+.mcb, .rssincl-entry {
+	width: 300px;
+	background-color: #ffffff;
+	padding: 10px;
+	margin-top: 50px;
+	border-radius: 15px;
+	}
+
+.spacer {
+	height: 100px;
+	}

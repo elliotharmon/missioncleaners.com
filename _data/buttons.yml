@@ -1,0 +1,14 @@
+- label: submit
+  target: submissions
+  
+- label: press
+  target: press
+  
+- label: twitter
+  url: https://twitter.com/missioncleaners/
+  
+- label: facebook
+  url: https://www.facebook.com/missioncleaners
+  
+- label: newsletter
+  url: http://eepurl.com/A28iH

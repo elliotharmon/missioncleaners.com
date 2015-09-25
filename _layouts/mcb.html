@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>{{ page.title }} / Mission Cleaners Books</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21075964-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+	{% assign currentpage = page.title %}
+
+</head>
+<body>
+		<div id="uptop">
+			{% if page.title == "home" %}
+				<h1>Mission Cleaners Books</h1>
+			{% else %}
+				<a href="/"><h1>Mission Cleaners Books</h1></a>
+			{% endif %}
+
+			{% include buttons.html %}
+
+			<div class="clear"></div>
+		</div>
+		<div id="splash">
+			{{content}}
+		</div>
+		{% if page.title == "home" %}
+			{% include homefooter.html %}
+		{% endif %}
+</body>

@@ -1,0 +1,19 @@
+<div id="allnavbuttons" align="right">
+
+	{% for button in site.data.buttons %}
+		{% if button.url %}
+			<a href="{{ button.url }}" target="_blank"><div class="textbutton yeslink">{{ button.label }}</div></a>
+		{% elsif button.target %}
+			{% if button.target == currentpage %}
+				<div class="textbutton nolink">{{ button.label }}</div>
+			{% else %}
+				{% for page in site.pages %}
+					{% if page.title == button.target %}
+						<a href="{{ page.permalink }}"><div class="textbutton yeslink">{{ button.label }}</div></a>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+
+</div>
